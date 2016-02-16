@@ -1,0 +1,11 @@
+set -e
+
+version="${1:? Provide a version number}"
+
+npm run lint
+npm run test
+
+npm install
+npm run compile
+
+docker build -t docker-grok/posts-service:latest -t docker-grok/posts-service:$version .

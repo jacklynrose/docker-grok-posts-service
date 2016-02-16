@@ -1,0 +1,6 @@
+version: '2'
+services:
+  posts:
+    image: docker-grok/posts-service:latest
+    ports:
+      - "8080:8080"

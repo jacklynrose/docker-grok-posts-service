@@ -1,0 +1,3 @@
+set -e
+
+docker run --rm -it --name posts-service docker-grok/posts-service:latest npm run test

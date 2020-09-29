@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "express": "~4.13.4",
-    "lodash": "~4.4.0"
+    "lodash": "~4.17.20"
   }
 }
